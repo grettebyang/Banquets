@@ -1,0 +1,43 @@
+{
+  "$GMObject":"",
+  "%Name":"continueButton_obj",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"continueButton_obj",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"button_obj","path":"objects/button_obj/button_obj.yy",},"propertyId":{"name":"buttonScript","path":"objects/button_obj/button_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"ContinueButton",},
+  ],
+  "parent":{
+    "name":"Button Objects",
+    "path":"folders/Objects/Button Objects.yy",
+  },
+  "parentObjectId":{
+    "name":"button_obj",
+    "path":"objects/button_obj/button_obj.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"continue_spr",
+    "path":"sprites/continue_spr/continue_spr.yy",
+  },
+  "spriteMaskId":null,
+  "visible":true,
+}

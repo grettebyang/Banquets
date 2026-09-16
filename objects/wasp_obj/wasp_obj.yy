@@ -1,0 +1,48 @@
+{
+  "$GMObject":"",
+  "%Name":"wasp_obj",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"wasp_obj",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"roomExit_obj","path":"objects/roomExit_obj/roomExit_obj.yy",},"propertyId":{"name":"targetRoom","path":"objects/roomExit_obj/roomExit_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rBattle",},
+  ],
+  "parent":{
+    "name":"Enemy Objects",
+    "path":"folders/Objects/Enemy Objects.yy",
+  },
+  "parentObjectId":{
+    "name":"battleEngage_obj",
+    "path":"objects/battleEngage_obj/battleEngage_obj.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"engaged","filters":[],"listItems":[],"multiselect":false,"name":"engaged","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"coolDown","filters":[],"listItems":[],"multiselect":false,"name":"coolDown","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+  ],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"wasp_spr",
+    "path":"sprites/wasp_spr/wasp_spr.yy",
+  },
+  "spriteMaskId":null,
+  "visible":true,
+}

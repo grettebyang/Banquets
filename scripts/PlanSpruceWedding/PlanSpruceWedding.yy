@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"PlanSpruceWedding",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PlanSpruceWedding",
+  "parent":{
+    "name":"Event Creation Scripts",
+    "path":"folders/Scripts/Event Creation Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

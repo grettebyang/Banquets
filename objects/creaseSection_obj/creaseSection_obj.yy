@@ -1,0 +1,48 @@
+{
+  "$GMObject":"",
+  "%Name":"creaseSection_obj",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"creaseSection_obj",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"entity_obj","path":"objects/entity_obj/entity_obj.yy",},"propertyId":{"name":"entityCollision","path":"objects/entity_obj/entity_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"entity_obj","path":"objects/entity_obj/entity_obj.yy",},"propertyId":{"name":"entityActive","path":"objects/entity_obj/entity_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+  ],
+  "parent":{
+    "name":"Item Objects",
+    "path":"folders/Objects/Item Objects.yy",
+  },
+  "parentObjectId":{
+    "name":"entity_obj",
+    "path":"objects/entity_obj/entity_obj.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"tableInstance","filters":[],"listItems":[],"multiselect":false,"name":"tableInstance","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":0,},
+  ],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"creaseSections_spr",
+    "path":"sprites/creaseSections_spr/creaseSections_spr.yy",
+  },
+  "spriteMaskId":null,
+  "visible":true,
+}
